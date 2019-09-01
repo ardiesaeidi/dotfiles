@@ -11,6 +11,21 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
+		# custom
+		--exclude ".aliases" \
+		--exclude ".editorconfig" \
+		--exclude ".exports" \
+		--exclude ".functions" \
+		--exclude ".gdbinit" \
+		--exclude ".gitattributes" \
+		--exclude ".gitconfig" \
+		--exclude ".gvimrc" \
+		--exclude ".hgignore" \
+		--exclude ".hushlogin" \
+		--exclude ".gdbinit" \
+		--exclude ".macos" \
+		--exclude ".screenrc" \
+		--exclude ".wgetrc" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
