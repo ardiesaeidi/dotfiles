@@ -12,6 +12,7 @@ function doIt() {
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		--exclude ".aliases" \
+		--exclude ".bash_prompt" \
 		--exclude ".editorconfig" \
 		--exclude ".exports" \
 		--exclude ".functions" \
